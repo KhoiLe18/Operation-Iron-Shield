@@ -1,0 +1,506 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.34f1 (5ab2d9ed9190) revision 5944025'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 15774 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.34f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Chris/Operation Iron Shield(Mapped)
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+45763
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/Chris/Operation Iron Shield(Mapped)
+C:/Users/Chris/Operation Iron Shield(Mapped)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25836]  Target information:
+
+Player connection [25836]  * "[IP] 10.0.0.130 [Port] 0 [Flags] 2 [Guid] 620070836 [EditorId] 620070836 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-UE7S0TPT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25836] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25836] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.34f1 (5ab2d9ed9190)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Chris/Operation Iron Shield(Mapped)/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004606 seconds.
+- Loaded All Assemblies, in  0.386 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.303 seconds
+Domain Reload Profiling: 686ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (129ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (135ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (304ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (273ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.961 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.865 seconds
+Domain Reload Profiling: 1817ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (674ms)
+		LoadAssemblies (431ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (351ms)
+			TypeCache.Refresh (251ms)
+				TypeCache.ScanAssembly (234ms)
+			BuildScriptInfoCaches (85ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (865ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (678ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (434ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 461 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7654 unused Assets / (29.5 MB). Loaded Objects now: 8263.
+Memory consumption went from 313.3 MB to 283.7 MB.
+Total: 14.933900 ms (FindLiveObjects: 0.753800 ms CreateObjectMapping: 0.717100 ms MarkObjects: 4.855000 ms  DeleteObjects: 8.607000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 162603.131159 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Weapons&Grenades/HGgrenade.prefab
+  artifactKey: Guid(a9ac01cc9b2244c4f9bac062103f0d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Weapons&Grenades/HGgrenade.prefab using Guid(a9ac01cc9b2244c4f9bac062103f0d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab35f5beb69d20d7a745b28eafeba77b') in 0.8345151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 342
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Trees&Plants/Tree7A.prefab
+  artifactKey: Guid(55134866e896b02438489699577d0bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Trees&Plants/Tree7A.prefab using Guid(55134866e896b02438489699577d0bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd282fc04ed5f828c2dce31cece4c8c99') in 0.0334516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Trees&Plants/Plant02A (1).prefab
+  artifactKey: Guid(f3f1757b7fe28124685b1d2af530414d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Trees&Plants/Plant02A (1).prefab using Guid(f3f1757b7fe28124685b1d2af530414d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61c3652fa9d03eb3033d500b65f184a6') in 0.031687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Weapons&Grenades/Shotgun01.prefab
+  artifactKey: Guid(50545c007300fe74ba014c97b52315bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Weapons&Grenades/Shotgun01.prefab using Guid(50545c007300fe74ba014c97b52315bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '964e2dadddb6e85ab7a406c8013530c8') in 0.0266078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Trees&Plants/Tree8A.prefab
+  artifactKey: Guid(58314e861cbd977418ba2dd9fa7946ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Trees&Plants/Tree8A.prefab using Guid(58314e861cbd977418ba2dd9fa7946ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab293218a8a8c893a162158930ce5d84') in 0.0294036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Trees&Plants/Plant11B (1).prefab
+  artifactKey: Guid(ebfd7e3821ff64b42acff502045cd421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Trees&Plants/Plant11B (1).prefab using Guid(ebfd7e3821ff64b42acff502045cd421) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd1fae3ba4477d40226fb6ff7a769812') in 0.0286649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Weapons&Grenades/Sniper.prefab
+  artifactKey: Guid(9f00ea1c131937546bc57c12362d386d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Weapons&Grenades/Sniper.prefab using Guid(9f00ea1c131937546bc57c12362d386d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83171e7e91b41faa364dc438635cc376') in 0.031991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Weapons&Grenades/M4.prefab
+  artifactKey: Guid(391fddaccc1394e459af1355618d403c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Weapons&Grenades/M4.prefab using Guid(391fddaccc1394e459af1355618d403c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a0729a6fdead02f0a491e0db7c6750c') in 0.063573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Weapons&Grenades/Shotgun02.prefab
+  artifactKey: Guid(d47ecd3e0233b8f488a75cc64681402e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Weapons&Grenades/Shotgun02.prefab using Guid(d47ecd3e0233b8f488a75cc64681402e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80a7157d3a99f0509bc82782f5d2fb86') in 0.0354521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Weapons&Grenades/SemiMachingun.prefab
+  artifactKey: Guid(a3612631472c62b4084d9d0bf3e79eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Weapons&Grenades/SemiMachingun.prefab using Guid(a3612631472c62b4084d9d0bf3e79eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da0529cf42e08eddb90b8a5c59b6cf87') in 0.0276023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.139180 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Character's Accessories/Glasses02.prefab
+  artifactKey: Guid(ad1a6dd7fedaa4f4e99a14b3f2beec47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Character's Accessories/Glasses02.prefab using Guid(ad1a6dd7fedaa4f4e99a14b3f2beec47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '387a74aaa20d6bc3c7bce327182dacfa') in 0.02369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Character's Accessories/Hair05.prefab
+  artifactKey: Guid(298d99d9d4fd456448699961ff27fec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Character's Accessories/Hair05.prefab using Guid(298d99d9d4fd456448699961ff27fec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97ac6cd2eb344c5fc5f3632f09564189') in 0.0221958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Character's Accessories/Helmet05.prefab
+  artifactKey: Guid(ce4066adc6f35ae4a9864f91db758283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Character's Accessories/Helmet05.prefab using Guid(ce4066adc6f35ae4a9864f91db758283) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77e3107249101a08c2a5285cc1b8655a') in 0.0258848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Character's Accessories/Hair01.prefab
+  artifactKey: Guid(0d4f2d3444472e84b91ae141ca965525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Character's Accessories/Hair01.prefab using Guid(0d4f2d3444472e84b91ae141ca965525) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b185d16486b6494aae367b22de3ca31') in 0.0342434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Character's Accessories/Hair03.prefab
+  artifactKey: Guid(ddd7018804e586f4a874494318b9c980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Character's Accessories/Hair03.prefab using Guid(ddd7018804e586f4a874494318b9c980) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cf7f367e3fd987146f6b22c8855ac04') in 0.0308046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Character's Accessories/Mask.prefab
+  artifactKey: Guid(ed23f90b39ac3f14da9a17c6042c5d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Character's Accessories/Mask.prefab using Guid(ed23f90b39ac3f14da9a17c6042c5d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '031d5aeb1b74ab0f4cd98448e9db8daf') in 0.0217742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Character's Accessories/Helmet02.prefab
+  artifactKey: Guid(5b7d328291373c942b170c8c9759598f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Character's Accessories/Helmet02.prefab using Guid(5b7d328291373c942b170c8c9759598f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8c4be969ea9bb89568336c144bfd8a8') in 0.0310003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Character's Accessories/HeadBandana.prefab
+  artifactKey: Guid(d809082f026a61e4d8b3fde0eed6c9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Character's Accessories/HeadBandana.prefab using Guid(d809082f026a61e4d8b3fde0eed6c9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86f19a6799688890cdd1453bf468c57a') in 0.0281498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LowPolyShooterPack/Prefabs/Character's Accessories/Helmet04.prefab
+  artifactKey: Guid(bd513e6e83a278b498fe060d536c3490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Prefabs/Character's Accessories/Helmet04.prefab using Guid(bd513e6e83a278b498fe060d536c3490) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14009bbb6b8189f2862536cfbe4409eb') in 0.0479172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.187283 seconds.
+  path: Assets/LowPolyShooterPack/Models/Weapons&Grenades/M4.fbx
+  artifactKey: Guid(19b3217a01ed3df42b30c781edabc747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Models/Weapons&Grenades/M4.fbx using Guid(19b3217a01ed3df42b30c781edabc747) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b4e4b32647c723da8c0b2e4cf4f9a25') in 0.0719753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LowPolyShooterPack/Models/Weapons&Grenades/Shotgun01.fbx
+  artifactKey: Guid(ef692815acc00a84abbedf794f71d664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Models/Weapons&Grenades/Shotgun01.fbx using Guid(ef692815acc00a84abbedf794f71d664) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '000908fbc206c348ca51daf5c7362e5f') in 0.0333739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LowPolyShooterPack/Models/Weapons&Grenades/SmokeGrenade.fbx
+  artifactKey: Guid(958a94ed2d6a7fd46a37a833d3b2dd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Models/Weapons&Grenades/SmokeGrenade.fbx using Guid(958a94ed2d6a7fd46a37a833d3b2dd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d2468f66bfe98157b86c98736748305') in 0.0351181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPolyShooterPack/Models/Weapons&Grenades/Shotgun02.fbx
+  artifactKey: Guid(7d5619b8d2356434fb8affbe367a4a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Models/Weapons&Grenades/Shotgun02.fbx using Guid(7d5619b8d2356434fb8affbe367a4a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cbab1af657ca9268e1c54e2e728a710') in 0.0304954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.513219 seconds.
+  path: Assets/LowPolyShooterPack/Models/Trees&Plants/Plant02A.fbx
+  artifactKey: Guid(0f7f5a40c0ae023489832f911a414555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Models/Trees&Plants/Plant02A.fbx using Guid(0f7f5a40c0ae023489832f911a414555) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8be482d152d5bba41f41c5b4387f089') in 0.083106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/LowPolyShooterPack/Models/Trees&Plants/Plant11A.fbx
+  artifactKey: Guid(9eea17473c168b84c8cc778e5a6f3c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Models/Trees&Plants/Plant11A.fbx using Guid(9eea17473c168b84c8cc778e5a6f3c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8016b75cf7f4f1b0b9c427064ed9227e') in 0.0582036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LowPolyShooterPack/Models/Trees&Plants/Tree7B.fbx
+  artifactKey: Guid(ad89899b94d96404b8402f5b545ff3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyShooterPack/Models/Trees&Plants/Tree7B.fbx using Guid(ad89899b94d96404b8402f5b545ff3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ceb726bae5c86f20938e7e12648e7d76') in 0.0885949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.071973 seconds.
+  path: Assets/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Cactus_02.fbx
+  artifactKey: Guid(c4cca24570a3eb1478f1ede521f132d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Cactus_02.fbx using Guid(c4cca24570a3eb1478f1ede521f132d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd64759ba30d3138af9c5e51bf02717b3') in 0.01623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Tree_02.fbx
+  artifactKey: Guid(ac812c2731bb9334aa4ea6c245c390ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Low Poly Desert Pack/FBX Files/Mixed Colors/Mixed_Tree_02.fbx using Guid(ac812c2731bb9334aa4ea6c245c390ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fc49665dc10d3785913d2275afdc290') in 0.0182393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.244883 seconds.
+  path: Assets/LowPolyFPSLite/Materials/LowPolyFPSLite_MAIN.mat
+  artifactKey: Guid(6c2a7a3006db1df48b06fed4222a5f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPSLite/Materials/LowPolyFPSLite_MAIN.mat using Guid(6c2a7a3006db1df48b06fed4222a5f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '900812fec9d8934631575c7202af00d4') in 0.0261913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.542022 seconds.
+  path: Assets/LowPolyFPSLite/Prefabs/Building_01.prefab
+  artifactKey: Guid(2d1aed8ada79e4d4e99084037c3b094a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPSLite/Prefabs/Building_01.prefab using Guid(2d1aed8ada79e4d4e99084037c3b094a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a35ed2d8eb681cab38dddea975e33228') in 0.0163998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LowPolyFPSLite/Prefabs/Stairs_01.prefab
+  artifactKey: Guid(e059938ac4b575643a3345b530869d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPSLite/Prefabs/Stairs_01.prefab using Guid(e059938ac4b575643a3345b530869d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc18cb0aa25867c9adc7671eb4788c66') in 0.0187832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LowPolyFPSLite/Prefabs/WoodPlank_03.prefab
+  artifactKey: Guid(a5eb9200176bece4791f121120fced60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPSLite/Prefabs/WoodPlank_03.prefab using Guid(a5eb9200176bece4791f121120fced60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9850013541425cdc8cc723f4851d2c39') in 0.019341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/LowPolyFPSLite/Prefabs/Wall_05.prefab
+  artifactKey: Guid(bb81a67ad1cf2984784527d333cae7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFPSLite/Prefabs/Wall_05.prefab using Guid(bb81a67ad1cf2984784527d333cae7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e06adfa2d7899840e364852d6b2dd233') in 0.020036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.681885 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Materials/M_House_Wood.mat
+  artifactKey: Guid(e2d5dcca8dda83644bdfff8aad886316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Materials/M_House_Wood.mat using Guid(e2d5dcca8dda83644bdfff8aad886316) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83f3799997f4d648a7e2201d0edba700') in 0.0160874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Materials/M_Palm_Wood.mat
+  artifactKey: Guid(eb49341bc73e73744a69d5618d5935bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Materials/M_Palm_Wood.mat using Guid(eb49341bc73e73744a69d5618d5935bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b50ff87d20ed822cb721fa3fe16ed66') in 0.0168456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Materials/M_Towel_Green.mat
+  artifactKey: Guid(e2753d972a5c05b459b8f6960aa74f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Materials/M_Towel_Green.mat using Guid(e2753d972a5c05b459b8f6960aa74f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a58583dee7adfb9b10682649d2c35328') in 0.0159382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.262898 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Desert.prefab
+  artifactKey: Guid(01fe0c353c6dfb947b34071429662c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Desert.prefab using Guid(01fe0c353c6dfb947b34071429662c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dbd61ff433a4a40c22338f61d63d507') in 0.0215845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_3.prefab
+  artifactKey: Guid(0faca65c8f14644408f4114d41941bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_House_3.prefab using Guid(0faca65c8f14644408f4114d41941bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e35c3b8d88992412a5c38c2de4dccbb1') in 0.0371916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Palm_1.prefab
+  artifactKey: Guid(63e0a48ed294278458fa101f87f50a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Village_LowPoly_HDRP/Prefabs/Desert_Village_Palm_1.prefab using Guid(63e0a48ed294278458fa101f87f50a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdeff3617d0c1513ab10af7664a0535e') in 0.0171225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
